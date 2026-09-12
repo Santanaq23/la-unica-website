@@ -3,230 +3,303 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>La Unica | Authentic Mexican Food in Lufkin, TX</title>
-  <meta name="description" content="La Unica and La Unica Express in Lufkin, Texas. Authentic Mexican food, tamales, tacos, fajitas, breakfast and family meals.">
+  <title>La Unica | La Unica Express</title>
+  <meta name="description" content="La Unica and La Unica Express in Lufkin, Texas. Authentic Mexican food, breakfast, tacos, tamales, fajitas, plates and family meals.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Libre+Franklin:wght@700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Prata&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="topbar">
+    <span>Serving Lufkin since 1978</span>
+    <span>Two locations • Same menu</span>
+  </div>
+
   <header class="site-header">
     <a class="brand" href="#home" aria-label="La Unica home">
       <img src="assets/la-unica-logo.jpg" alt="La Unica logo">
     </a>
+
     <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+
     <nav id="nav">
       <a href="#menu">Menu</a>
       <a href="#locations">Locations</a>
+      <a href="#favorites">Favorites</a>
       <a href="#catering">Catering</a>
-      <a href="#story">Since 1978</a>
-      <a class="nav-cta" href="#locations">Call / Visit</a>
+      <a href="#story">Our Story</a>
+      <a class="nav-cta" href="#locations">Visit Us</a>
     </nav>
   </header>
 
   <main>
     <section class="hero" id="home">
-      <div class="hero-image"></div>
-      <div class="hero-copy">
-        <p class="kicker">LUFKIN, TEXAS • SINCE 1978</p>
-        <h1>Authentic Mexican food made the La Unica way.</h1>
-        <p class="hero-text">Two Lufkin locations. One shared menu. Tamales, tacos, fajitas, breakfast favorites and family meals made for everyday cravings and big gatherings alike.</p>
-        <div class="hero-actions">
-          <a class="btn btn-red" href="#menu">Explore the Menu</a>
-          <a class="btn btn-ghost" href="#locations">Choose a Location</a>
+      <div class="hero-backdrop"></div>
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <div class="hero-left">
+          <span class="pill">Authentic Mexican Food • Lufkin, TX</span>
+          <h1>Bold flavor, local tradition, and the dishes people come back for.</h1>
+          <p>La Unica and La Unica Express share one menu full of favorites — tacos, tamales, fajitas, breakfast, burritos, plates and family meals.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#menu">View Menu</a>
+            <a class="btn btn-secondary" href="#locations">Find a Location</a>
+          </div>
+
+          <div class="hero-stats">
+            <div>
+              <strong>2</strong>
+              <span>Locations</span>
+            </div>
+            <div>
+              <strong>1978</strong>
+              <span>Serving Lufkin</span>
+            </div>
+            <div>
+              <strong>1</strong>
+              <span>Shared Menu</span>
+            </div>
+          </div>
         </div>
-        <div class="hero-note">
-          <strong>La Unica</strong>
-          <span>+</span>
-          <strong>La Unica Express</strong>
-          <small>Same menu • Two convenient locations</small>
+
+        <div class="hero-right">
+          <div class="hero-card">
+            <div class="hero-card-badge">Featured Favorites</div>
+            <img src="assets/combination-plate.jpg" alt="La Unica combination plate">
+            <div class="hero-card-copy">
+              <h3>Breakfast, tacos, tamales, fajitas & plates</h3>
+              <p>Everything customers already love — at both La Unica and La Unica Express.</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="quick-strip">
-      <div><strong>Breakfast</strong><span>Start your morning with tacos, burritos & plates.</span></div>
-      <div><strong>Tamales</strong><span>A local favorite, available by the plate or by the dozen.</span></div>
-      <div><strong>Family Meals</strong><span>Fajita, taco and tamale meals for the whole table.</span></div>
+    <section class="floating-highlights">
+      <article>
+        <h3>Breakfast</h3>
+        <p>Tacos, burritos, huevos rancheros, machacado and more.</p>
+      </article>
+      <article>
+        <h3>Tamales</h3>
+        <p>A local favorite available in meals and larger orders.</p>
+      </article>
+      <article>
+        <h3>Family Meals</h3>
+        <p>Perfect for feeding the whole crew at home or work.</p>
+      </article>
+    </section>
+
+    <section class="section intro-panels" id="favorites">
+      <div class="section-heading centered">
+        <span class="eyebrow">WHY PEOPLE LOVE LA UNICA</span>
+        <h2>Made to feel warmer, richer and more inviting.</h2>
+        <p>This refreshed design adds more depth, visual contrast, and personality so the site feels less flat and more like a real restaurant brand.</p>
+      </div>
+
+      <div class="panel-grid">
+        <article class="feature-panel accent-red">
+          <span class="icon">🌮</span>
+          <h3>Big flavor</h3>
+          <p>Street-style tacos, savory burritos, fajitas and traditional plates that feel like comfort food and celebration food at the same time.</p>
+        </article>
+        <article class="feature-panel accent-gold">
+          <span class="icon">🌽</span>
+          <h3>Local favorite</h3>
+          <p>La Unica has been part of Lufkin for decades, and the design now reflects that with a stronger, more memorable personality.</p>
+        </article>
+        <article class="feature-panel accent-green">
+          <span class="icon">🥘</span>
+          <h3>Made for groups</h3>
+          <p>Family meals and catering-friendly options make it easy for people to order for home, work and events.</p>
+        </article>
+      </div>
     </section>
 
     <section class="section menu-section" id="menu">
-      <div class="section-intro">
+      <div class="section-heading">
         <div>
-          <p class="kicker">ONE MENU • BOTH LOCATIONS</p>
-          <h2>Something for every craving.</h2>
+          <span class="eyebrow">ONE MENU • TWO RESTAURANTS</span>
+          <h2>Explore the menu.</h2>
         </div>
-        <p>La Unica and La Unica Express share the same menu. Below are the main categories customers know us for.</p>
+        <p>Both La Unica and La Unica Express share the same core menu. These featured sections keep it simple and make the website easier to browse.</p>
       </div>
 
-      <div class="menu-feature-grid">
-        <article class="food-card">
-          <img src="assets/tacos.jpg" alt="Tacos with onions and cilantro">
-          <div>
-            <span>TACOS & GORDITAS</span>
+      <div class="food-showcase">
+        <article class="showcase-card wide">
+          <div class="image-wrap">
+            <img src="assets/tacos.jpg" alt="Tacos with cilantro and onion">
+          </div>
+          <div class="copy">
+            <span class="mini-label">TACOS & GORDITAS</span>
             <h3>Street-style favorites</h3>
-            <p>Fajita, carnitas, barbacoa, pastor, chicharrón, tripas and more.</p>
+            <p>Choose from fajita, carnitas, barbacoa, pastor, chicharrón, tripas and more.</p>
           </div>
         </article>
-        <article class="food-card">
-          <img src="assets/tamales.jpg" alt="Tamales with rice, beans and pico de gallo">
-          <div>
-            <span>TAMALES</span>
-            <h3>A La Unica classic</h3>
-            <p>Order individually, by the half dozen, by the dozen, or as a complete meal.</p>
+
+        <article class="showcase-card">
+          <div class="image-wrap">
+            <img src="assets/tamales.jpg" alt="Tamales with rice and beans">
+          </div>
+          <div class="copy">
+            <span class="mini-label">TAMALES</span>
+            <h3>A local classic</h3>
+            <p>Available individually, by the dozen, or as a full meal.</p>
           </div>
         </article>
-        <article class="food-card">
-          <img src="assets/fajitas.jpg" alt="Beef fajitas with peppers, tortillas, rice and beans">
-          <div>
-            <span>FAJITAS</span>
-            <h3>Hot off the grill</h3>
-            <p>Beef or chicken fajitas served with the sides that make the plate complete.</p>
+
+        <article class="showcase-card">
+          <div class="image-wrap">
+            <img src="assets/fajitas.jpg" alt="Fajitas with peppers and tortillas">
           </div>
-        </article>
-        <article class="food-card">
-          <img src="assets/combination-plate.jpg" alt="Mexican combination plate">
-          <div>
-            <span>PLATES</span>
-            <h3>Full meals, big flavor</h3>
-            <p>Enchiladas, flautas, tamale plates, ranch steak, combination plates and more.</p>
+          <div class="copy">
+            <span class="mini-label">FAJITAS</span>
+            <h3>Fresh off the grill</h3>
+            <p>Beef or chicken fajitas served with the favorites that complete the plate.</p>
           </div>
         </article>
       </div>
 
-      <div class="menu-categories">
-        <article>
+      <div class="menu-bento">
+        <article class="bento-card">
           <h3>Breakfast</h3>
-          <p>Tacos • Burritos • Huevos Rancheros • Machacado • Chilaquiles</p>
+          <p>Tacos • Burritos • Huevos Rancheros • Chilaquiles • Machacado</p>
         </article>
-        <article>
+        <article class="bento-card">
           <h3>Burritos</h3>
-          <p>Beef, Bean & Cheese • Ranch Steak • Chicken & Cheese • Carnitas</p>
+          <p>Bean & Cheese • Beef • Chicken • Ranch Steak • Carnitas</p>
         </article>
-        <article>
+        <article class="bento-card">
           <h3>Tortas & Sopes</h3>
-          <p>Fajita • Carnitas • Barbacoa • Pastor • Chicharrón • Tripas • Ham</p>
+          <p>Fajita • Pastor • Barbacoa • Chicharrón • Ham • Tripas</p>
         </article>
-        <article>
+        <article class="bento-card">
+          <h3>Plates</h3>
+          <p>Enchiladas • Flautas • Tamale Plates • Combination Plates • Ranch Steak</p>
+        </article>
+        <article class="bento-card">
           <h3>Family Meals</h3>
-          <p>Fajita Meal • Tamale Meal • Taco Meal</p>
+          <p>Fajita Meal • Taco Meal • Tamale Meal</p>
         </article>
-        <article>
-          <h3>Sides</h3>
-          <p>Rice • Beans • Pico de Gallo • Salsa • Guacamole • Chips</p>
-        </article>
-        <article>
-          <h3>Drinks</h3>
-          <p>Ask either location about current fountain and bottled drink options.</p>
+        <article class="bento-card">
+          <h3>Sides & Extras</h3>
+          <p>Rice • Beans • Pico • Salsa • Guacamole • Chips</p>
         </article>
       </div>
 
-      <details class="menu-image">
-        <summary>View our photographed menu board</summary>
-        <img src="assets/menu-board.jpg" alt="La Unica photographed menu board">
-        <p>Menu photo is provided for reference. Current pricing and availability may differ by ordering channel.</p>
+      <details class="menu-photo-panel">
+        <summary>Open the photographed menu board</summary>
+        <img src="assets/menu-board.jpg" alt="Photographed La Unica menu board">
+        <p>Use this as a reference image. You can later replace this with a cleaner digital menu page if you want.</p>
       </details>
     </section>
 
-    <section class="location-section" id="locations">
-      <div class="section-intro light">
-        <div>
-          <p class="kicker">TWO LUFKIN LOCATIONS</p>
-          <h2>Pick the one closest to you.</h2>
-        </div>
-        <p>Both restaurants serve the same menu, so choose whichever location is most convenient.</p>
+    <section class="section locations-section" id="locations">
+      <div class="section-heading light centered">
+        <span class="eyebrow">CHOOSE YOUR LOCATION</span>
+        <h2>Same favorites, two convenient spots.</h2>
+        <p>Visit the original La Unica or stop by La Unica Express. Both locations share the same menu.</p>
       </div>
 
       <div class="location-grid">
-        <article class="location-card">
-          <div class="location-top">
-            <span class="location-label">ORIGINAL LOCATION</span>
+        <article class="location-card emerald">
+          <div class="location-head">
+            <span class="store-badge">Original Location</span>
             <h3>La Unica</h3>
             <p>1614 N Raguet St<br>Lufkin, TX 75904</p>
           </div>
-          <div class="location-actions">
+          <div class="location-footer">
             <a class="btn btn-light" href="tel:+19366321680">Call (936) 632-1680</a>
-            <a class="text-link" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=La+Unica+1614+N+Raguet+St+Lufkin+TX+75904">Get directions →</a>
+            <a class="simple-link" href="https://www.google.com/maps/search/?api=1&query=La+Unica+1614+N+Raguet+St+Lufkin+TX+75904" target="_blank" rel="noopener">Get directions →</a>
           </div>
         </article>
 
-        <article class="location-card express">
-          <div class="location-top">
-            <span class="location-label">TIMBERLAND LOCATION</span>
+        <article class="location-card chili">
+          <div class="location-head">
+            <span class="store-badge">Timberland Location</span>
             <h3>La Unica Express</h3>
             <p>200 N Timberland Dr<br>Lufkin, TX 75901</p>
           </div>
-          <div class="hours-box">
+          <div class="hours-chip">
             <strong>Online ordering hours</strong>
             <span>Mon–Fri: 6:00 AM – 7:40 PM</span>
             <span>Saturday: 6:00 AM – 6:40 PM</span>
             <span>Sunday: Closed</span>
           </div>
-          <div class="location-actions">
+          <div class="location-footer">
             <a class="btn btn-light" href="tel:+19362383970">Call (936) 238-3970</a>
-            <a class="text-link" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=La+Unica+Express+200+N+Timberland+Dr+Lufkin+TX+75901">Get directions →</a>
+            <a class="simple-link" href="https://www.google.com/maps/search/?api=1&query=La+Unica+Express+200+N+Timberland+Dr+Lufkin+TX+75901" target="_blank" rel="noopener">Get directions →</a>
           </div>
         </article>
       </div>
-      <p class="hours-note">Hours shown for La Unica Express are the online-ordering hours supplied in the restaurant listing screenshot. Call either location to confirm dine-in or pickup hours.</p>
     </section>
 
-    <section class="catering-section" id="catering">
-      <div class="catering-copy">
-        <p class="kicker">CATERING & LARGE ORDERS</p>
-        <h2>Bring La Unica to the whole crowd.</h2>
-        <p>Planning a work lunch, birthday, family gathering, graduation or other event? Start with the food everyone already loves.</p>
-        <div class="catering-points">
-          <span>✓ Fajitas</span>
-          <span>✓ Tamales</span>
-          <span>✓ Tacos</span>
-          <span>✓ Rice & beans</span>
-          <span>✓ Pico & salsa</span>
-          <span>✓ Family-style orders</span>
+    <section class="section catering-section" id="catering">
+      <div class="catering-box">
+        <div class="catering-copy">
+          <span class="eyebrow">CATERING & LARGE ORDERS</span>
+          <h2>Feed a crowd the easy way.</h2>
+          <p>Graduations, family gatherings, work lunches and celebrations are even better with tacos, fajitas, tamales and your favorite sides.</p>
+          <div class="tag-row">
+            <span>Fajitas</span>
+            <span>Tamales</span>
+            <span>Tacos</span>
+            <span>Rice & Beans</span>
+            <span>Large Orders</span>
+          </div>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="tel:+19366321680">Call La Unica</a>
+            <a class="btn btn-secondary-dark" href="tel:+19362383970">Call Express</a>
+          </div>
         </div>
-        <div class="hero-actions">
-          <a class="btn btn-red" href="tel:+19366321680">Call La Unica</a>
-          <a class="btn btn-ghost-dark" href="tel:+19362383970">Call Express</a>
+
+        <div class="catering-image-card">
+          <img src="assets/fajitas.jpg" alt="Fajitas catering-style plate">
+          <div class="note-card">
+            <strong>Need help estimating food?</strong>
+            <p>This section can later become your AI catering assistant and quote form.</p>
+          </div>
         </div>
-      </div>
-      <div class="catering-panel">
-        <div class="corn-mark">🌽</div>
-        <h3>Need help planning how much food to order?</h3>
-        <p>Tell us your guest count, event type and what you want to serve. We can help you build the order.</p>
-        <a class="text-link red" href="mailto:">Ask about catering →</a>
       </div>
     </section>
 
-    <section class="story-section" id="story">
-      <div class="story-copy">
-        <p class="kicker">SINCE 1978</p>
-        <h2>A Lufkin tradition.</h2>
-        <p>La Unica has been serving Mexican food in Lufkin for decades. Today, La Unica and La Unica Express give customers two convenient ways to enjoy the same menu and familiar favorites.</p>
-        <p class="small">This section is ready for the family story, founder history and any milestones you want to feature.</p>
-      </div>
-      <div class="story-logo">
-        <img src="assets/la-unica-logo.jpg" alt="La Unica since 1978 logo">
+    <section class="section story-section" id="story">
+      <div class="story-grid">
+        <div class="story-logo-panel">
+          <img src="assets/la-unica-logo.jpg" alt="La Unica logo">
+        </div>
+        <div class="story-copy">
+          <span class="eyebrow">OUR STORY</span>
+          <h2>A Lufkin staple since 1978.</h2>
+          <p>La Unica has been serving the community for decades, and La Unica Express gives customers another convenient way to enjoy the same menu and familiar flavors.</p>
+          <p>This section is ready for your real story whenever you want to add the family background, how the restaurant started, or what makes La Unica special to the community.</p>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <div class="footer-brand">
-      <img src="assets/la-unica-logo.jpg" alt="La Unica">
-      <p>Authentic Mexican food in Lufkin, Texas.</p>
+      <img src="assets/la-unica-logo.jpg" alt="La Unica logo">
+      <p>Authentic Mexican food, breakfast favorites, tacos, tamales, plates and family meals in Lufkin, Texas.</p>
     </div>
-    <div>
+
+    <div class="footer-col">
       <strong>La Unica</strong>
-      <a href="tel:+19366321680">(936) 632-1680</a>
       <span>1614 N Raguet St</span>
+      <a href="tel:+19366321680">(936) 632-1680</a>
     </div>
-    <div>
+
+    <div class="footer-col">
       <strong>La Unica Express</strong>
-      <a href="tel:+19362383970">(936) 238-3970</a>
       <span>200 N Timberland Dr</span>
+      <a href="tel:+19362383970">(936) 238-3970</a>
     </div>
-    <div class="copyright">© 2026 La Unica. All rights reserved.</div>
+
+    <div class="footer-bottom">© 2026 La Unica • Website refresh v2</div>
   </footer>
 
   <script src="script.js"></script>
