@@ -1669,14 +1669,16 @@
         );
         chatStatus.textContent = "";
       } catch (error) {
-        loading.remove();
-        addChatMessage(
-          "I am having trouble connecting right now. Please try again or call one of our locations.",
-          "bot"
-        );
-        chatStatus.textContent = "Connection error";
-        console.error("Chat error:", error);
-      } finally {
+  loading.remove();
+
+  addChatMessage(
+    "Error: " + error.message,
+    "bot"
+  );
+
+  chatStatus.textContent = "Connection error";
+  console.error("Chat error:", error);
+} finally {
         chatSend.disabled = false;
         chatInput.disabled = false;
         chatInput.focus();
